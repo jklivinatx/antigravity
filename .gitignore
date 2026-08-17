@@ -1,0 +1,18 @@
+# Audio & Video Downloads
+*.mp3
+*.webm
+*.mp4
+*.m4a
+*.wav
+*.flac
+*.aac
+
+# Executables & Large Binaries
+*.exe
+*.dll
+
+# OS & IDE Files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
