@@ -1,0 +1,8 @@
+Your New Workflow
+Now that the "hook up" is finished, the process for adding any new .py or .bat files in the future is much simpler. Whenever you create a new script in your C:/Users/cary/myscripts folder, you just need to run these three quick commands in Git Bash:
+
+git add . (This tells Git to look at your new files).
+
+git commit -m "added a new script" (This saves the version locally with a note).
+
+git push (This sends it to GitHub).
