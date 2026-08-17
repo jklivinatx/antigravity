@@ -41,6 +41,24 @@
     "duckduckgo-search": {
       "command": "python",
       "args": ["C:\\Users\\cary\\gravity\\scripts\\ddg_mcp_server.py"]
+    },
+    "obsidian": {
+      "command": "python",
+      "args": ["C:\\Users\\cary\\gravity\\scripts\\obsidian_mcp_server.py"],
+      "env": {
+        "OBSIDIAN_VAULT_PATH": "C:\\Users\\cary\\OneDrive\\Documents\\Archived Notes"
+      }
+    },
+    "job-search": {
+      "command": "python",
+      "args": ["C:\\Users\\cary\\gravity\\scripts\\job_search_mcp_server.py"]
+    },
+    "readwise": {
+      "command": "python",
+      "args": ["C:\\Users\\cary\\gravity\\scripts\\readwise_mcp_server.py"],
+      "env": {
+        "READWISE_TOKEN": ""
+      }
     }
   }
 }
