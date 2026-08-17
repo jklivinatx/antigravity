@@ -38,12 +38,9 @@
         "GITHUB_PERSONAL_ACCESS_TOKEN": ""
       }
     },
-    "brave-search": {
-      "command": "cmd.exe",
-      "args": ["/c", "npx", "-y", "@modelcontextprotocol/server-brave-search"],
-      "env": {
-        "BRAVE_API_KEY": ""
-      }
+    "duckduckgo-search": {
+      "command": "python",
+      "args": ["C:\\Users\\cary\\gravity\\scripts\\ddg_mcp_server.py"]
     }
   }
 }
