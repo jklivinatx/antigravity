@@ -4,7 +4,7 @@ from mcp.server.fastmcp import FastMCP
 
 mcp = FastMCP("obsidian-mcp")
 
-VAULT_DIR = os.environ.get("OBSIDIAN_VAULT_PATH", r"C:\Users\cary\OneDrive\Documents\Archived Notes")
+VAULT_DIR = os.environ.get("OBSIDIAN_VAULT_PATH", r"C:\Users\cary\iCloudDrive\iCloud~md~obsidian\Wobsidian")
 
 @mcp.tool()
 def search_vault_notes(query: str, max_results: int = 10) -> str:

@@ -1,7 +1,10 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"path": ".."
+		},
+		{
+			"path": "C:\\Users\\cary\\iCloudDrive\\iCloud~md~obsidian\\Wobsidian"
 		}
 	],
 	"settings": {}
